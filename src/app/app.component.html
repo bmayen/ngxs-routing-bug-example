@@ -530,6 +530,11 @@
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 
 
-<router-outlet></router-outlet>
+<h1>Count is {{count$ | async}}</h1>
+<button (click)="onClick()">Click Me</button>
 
-<a [routerLink]="['home']">HOME</a>
+<nav>
+  <a [routerLink]="['home']">HOME</a>
+</nav>
+
+<router-outlet></router-outlet>
