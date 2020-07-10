@@ -2,4 +2,6 @@
 
 Demonstrating NGXS router bug
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/angular-ivy-vqobpq)
+https://github.com/ngxs/store/issues/1640
+
+[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/ngxs-router-bug)
